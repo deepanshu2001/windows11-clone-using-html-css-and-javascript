@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    /* background-image: url('windows_bg.jpg'); */
+    /* width: 100vw;
+    height: 100vh; */
+    /* background-size: 1200px; */
+    overflow: hidden;
+}
+
+.taskbar{
+    position: absolute;
+    bottom:0px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color: #f3f3f3;
+    height: 46px;
+    z-index:110;
+
+
+}
+
+#task-barright{
+    position: absolute;
+    right: 31px;
+}
+
+.startmenu{
+    position: absolute;
+    /* bottom:50px; */
+    bottom:-650px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in;
+
+}
+
+.icon{
+    position: absolute;
+    top: 0px;
+}
+
+#icon1{
+    margin: 0px 5px;
+}
+#icon2{
+    margin: 0px 5px;
+}
+
+.icon img{
+    width: 56px;
+}
